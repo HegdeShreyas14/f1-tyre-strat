@@ -1,9 +1,10 @@
 # FastF1 downloaded cache — regenerable, never commit
 f1_cache/
 
-# Data artifacts (regenerable from extract.py)
+# Data artifacts (regenerable from extract.py / sql/build_db.py)
 *.parquet
 *.csv
+*.db
 
 # Python
 __pycache__/
