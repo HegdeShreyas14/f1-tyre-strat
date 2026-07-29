@@ -1,0 +1,17 @@
+# FastF1 downloaded cache — regenerable, never commit
+f1_cache/
+
+# Data artifacts (regenerable from extract.py)
+*.parquet
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
