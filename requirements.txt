@@ -2,5 +2,4 @@ fastf1>=3.8
 pandas
 numpy
 matplotlib
-seaborn
 jupyter
