@@ -1,5 +1,5 @@
 # sql/build_db.py
-"""Load the cleaned lap data into SQLite so the analysis can also be queried in SQL.
+"""Load the cleaned lap data into SQLite to be queried in SQL.
 
 Three tables:
   laps       one row per clean green-flag lap (the output of clean.py)
@@ -7,7 +7,6 @@ Three tables:
   pit_stops  one row per pit stop, with the in-lap/out-lap times and a
              clean_for_pace flag (0 under SC/VSC or after Monaco's rain arrived)
 
-Run from the repo root:  python sql/build_db.py
 """
 import sqlite3
 from pathlib import Path
